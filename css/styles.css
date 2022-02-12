@@ -68,7 +68,7 @@ img{
     text-align: center;
 }
 
-/*Todo estos son sets iniciales*/
+/*Todo estos son sets iniciales******************************************************/
 
 /*Header*/
  .header{
@@ -219,7 +219,7 @@ img{
 }
 
 
-/*mio*/
+/*MIO***************************************************************/
  .entrada__contenido p{
      text-align: justify;
  }
@@ -231,3 +231,32 @@ img{
  .cursos{
      list-style: none;
  }
+
+ .sobre-nosotros__texto p{
+     text-align: justify;
+
+ }
+
+ .h1-gracias{
+     display: flex;
+     font-family: var(--fuenteHeading);
+     font-weight: bold;
+     font-size: 7rem;
+     justify-content: center;
+     margin-top: 1rem;
+     border-top: 1px solid var(--gris);
+     margin-top: 3rem;
+     
+ }
+
+
+/*NOSOTROS*********************************************************/
+@media(min-width: 768px){
+    .sobre-nosotros{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
+
+/*CURSOS***********************************************************/
