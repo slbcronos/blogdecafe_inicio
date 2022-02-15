@@ -249,6 +249,14 @@ img{
      
  }
 
+ .curso__informacion p{
+     text-align: justify;
+ }
+
+ .entrada-texto{
+     text-align: justify;
+ }
+
 
 /*NOSOTROS*********************************************************/
 @media(min-width: 768px){
@@ -260,3 +268,33 @@ img{
 }
 
 /*CURSOS***********************************************************/
+
+.curso{
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--gris);
+}
+
+.curso:last-of-type{
+    border-bottom: none;
+    margin-bottom: 0;
+
+}
+
+@media (min-width: 768px){
+    .curso{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 2rem;
+    }
+}
+
+.curso__label{
+    font-family: var(--fuenteHeading);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.curso__info{
+    font-weight: normal;
+    font-size: 2rem;
+}
