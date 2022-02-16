@@ -166,6 +166,7 @@ img{
      text-transform: uppercase;
      font-weight: 700;
      margin-bottom: 2rem;
+     border: none;
 
  }
 /*regresa el boton a un menor tamaño en dispositivos grandes*/
@@ -174,6 +175,10 @@ img{
          display: inline-block;
 
      }
+ }
+
+ .boton:hover{
+     cursor: pointer;
  }
 
  .boton--primario{
@@ -257,6 +262,7 @@ img{
      text-align: justify;
  }
 
+ 
 
 /*NOSOTROS*********************************************************/
 @media(min-width: 768px){
@@ -298,3 +304,44 @@ img{
     font-weight: normal;
     font-size: 2rem;
 }
+
+/*CONTACTO***********************************************************/
+.contacto-bg{
+    background-image: url(../img/contacto.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.formulario{
+    padding-top: 2rem;
+    width: 90%;
+    margin-left: 5%;
+
+}
+
+.campo{
+    display: flex;
+    margin-bottom: 2rem;
+
+}
+
+.campo__label{
+    flex: 0 0 8rem;
+    text-align: right;
+    padding-right: 2rem;
+    font-weight: bold;
+
+}
+
+.campo__field{
+    flex: 1;
+    border: 1px solid var(--gris);
+
+}
+
+.botonContacto{
+    display: block;
+    margin-left: 8rem;
+}
+
